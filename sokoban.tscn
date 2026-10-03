@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://cliajx5q6nime"]
+
+[ext_resource type="Script" uid="uid://mqpre16glwtw" path="res://sokoban.gd" id="1_chrx4"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_chrx4"]
+
+[node name="Sokoban" type="Node2D" unique_id=1514749178]
+script = ExtResource("1_chrx4")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=596607932]
+custom_minimum_size = Vector2(1640, 2360)
+offset_right = 40.0
+offset_bottom = 40.0
+color = Color(0.9880371, 0.5621948, 0.1842041, 1)
+
+[node name="Player" type="CharacterBody2D" parent="." unique_id=1230720399]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Player" unique_id=1644743324]
+sprite_frames = SubResource("SpriteFrames_chrx4")
