@@ -22,7 +22,7 @@ renderer/rendering_method="mobile"
 [xogot]
 
 project/editorState=[{
-"column": 32,
+"column": 0,
 "current": true,
 "line": 19,
 "path": "res://sokoban.gd",

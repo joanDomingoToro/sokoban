@@ -11,7 +11,7 @@ script = ExtResource("1_chrx4")
 custom_minimum_size = Vector2(1640, 2360)
 offset_right = 40.0
 offset_bottom = 40.0
-color = Color(0.9880371, 0.5621948, 0.1842041, 1)
+color = Color(0.98802185, 0.56217957, 0.8612366, 1)
 
 [node name="Player" type="CharacterBody2D" parent="." unique_id=1230720399]
 
